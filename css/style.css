@@ -1,0 +1,224 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*以上為css reset*/
+
+.robotoRegular{
+	font-family: "Roboto Regular";
+}
+
+.robotoMedium{
+	font-family: "Roboto Medium";
+}
+
+.robotoLight{
+	font-family: "Roboto Light";
+}
+
+.notosansRegular{
+	font-family: "Noto Sans Regular";
+}
+
+.red{
+	color: #A00404;
+}
+
+.white{
+	color: #ffffff;
+}
+
+.bg{
+	background: #415165;
+}
+
+h1{
+	border-bottom: 2px solid #000000;
+	line-height: 94px;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+.fz-20{
+	font-size: 20px;
+}
+
+.fz-24{
+	font-size: 24px;
+}
+
+.fz-32{
+	font-size: 32px;
+}
+
+.fz-80{
+	font-size: 80px;
+}
+
+/*以上為文字設定*/
+
+img{
+	display: block;
+}
+
+.profileImage{
+	width: 324px;
+}
+
+.companyLogo{
+	width: 90px;
+}
+
+.contact img{
+	width: 48px;
+}
+
+/*以上為圖片設定*/
+
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.inner{
+	width: 996px;
+	margin: 0 auto;
+	padding-top: 24px; /*想不到這裡怎麼用單一方向推？所以先設了pt24*/
+	padding-bottom: 36px;
+}
+
+.hexschoolDetails{
+	width: 642px;
+}
+
+.skills li{
+	margin: 0 auto;
+	width: 200px;
+}
+
+.pb-8{
+	padding-bottom: 8px;
+}
+
+.pb-15{
+	padding-bottom: 15px;
+}
+
+.mb-8{
+	margin-bottom: 8px;
+}
+
+.ml-16{
+	margin-left: 16px;
+}
+
+.mb-16{
+	margin-bottom: 16px;
+}
+
+.ml-24{
+	margin-left: 24px;
+}
+
+.mb-24{
+	margin-bottom: 24px;
+}
+
+.mb-32{
+	margin-bottom: 32px;
+}
+
+.mb-40{
+	margin-bottom: 40px;
+}
+
+.mb-48{
+	margin-bottom: 48px;
+}
+
+.mb-72{
+	margin-bottom: 72px;
+}
+
+.lh-36{
+	line-height: 36px;
+}
+
+.lh-30{
+	line-height: 30px;
+}
+
+.tac{
+	text-align: center;
+}
+
+.subhead{
+	border-bottom: 1px solid;
+}
+
+.innerSubhead{
+	border-bottom: 1px solid #FFFFFF;
+}
+
+.bdl{
+	border-left: 1px solid #96A9C4;
+	padding-left: 24px; 
+}
+
+.socialMedia{
+	display: flex;
+	justify-content: center;
+}
+
+/*以上為排版設定*/
